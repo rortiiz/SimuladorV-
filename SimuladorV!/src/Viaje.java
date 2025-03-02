@@ -7,6 +7,13 @@ class Viaje {
     static double consumoCombustible = .5; //Litros por KM
     static double consumoOxigeno = 2; //Litros por Hora
 
+
+    /**
+     * Pide al usuario que seleccione un planeta de destino, y con esa elección,
+     * calcula el viaje necesario para llegar a ese planeta.
+     * @param scanner Scanner para leer la entrada del usuario.
+     */
+
     static void seleccionarDestino (Scanner scanner) {
         System.out.println ("\nElige tu Planeta de Destino: ");
         for (int i = 0; i < planetas.length; i ++) {
@@ -16,7 +23,7 @@ class Viaje {
 
         int eleccion = scanner.nextInt ();
         if (eleccion < 1 || eleccion > planetas.length) {
-            System.out.println ("Selección no Valida!");
+            System.out.println ("Selección no valida, ¡ingrese una opción correcta!");
             return;
 
         }
