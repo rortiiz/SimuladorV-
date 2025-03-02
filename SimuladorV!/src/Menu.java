@@ -1,8 +1,9 @@
 class Menu {
 
-
     /**
-     * Muestra el menug  de opciones del simulador
+     * Muestra el menu  de opciones del simulador, con la posibilidad de
+     * seleccionar un planeta de destino y calcular el viaje o salir del
+     * simulador.
      */
 
     static void mostrarMenu () {

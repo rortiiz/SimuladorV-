@@ -12,7 +12,7 @@ class Viaje {
      * Pide al usuario que seleccione un planeta de destino, y con esa elección,
      * calcula el viaje necesario para llegar a ese planeta.
      * @param scanner Scanner para leer la entrada del usuario.
-     */
+     */ 
 
     static void seleccionarDestino (Scanner scanner) {
         System.out.println ("\nElige tu Planeta de Destino: ");
